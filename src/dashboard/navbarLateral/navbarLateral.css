@@ -1,0 +1,55 @@
+.container {
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    color: #fff;
+}
+
+.containerInterno {
+    width: 5rem;
+    background-color: #027373;
+    flex-shrink: 0;
+    border-radius: .375rem;
+    flex-direction: column;
+    display: none;
+    display: flex;
+}
+
+.containerImgLogo {
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerNavbar {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-grow: 1;
+    margin-top: 1rem;
+    flex-direction: column;
+}
+
+.buttonNavbarLateral {
+    height: 2.5rem;
+    width: 3rem;
+    border-radius: .375rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #027373;
+    background-color: #fff;
+    
+}
+
+.iconsConfig {
+    height: 1.25rem;
+    stroke: currentColor;
+    stroke-width: 2;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}

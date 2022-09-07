@@ -1,0 +1,208 @@
+/* BOTÕES MENU USER */
+#buttonLogout {
+    color: white;
+    height: 36px;
+    width: 80px;
+    border-radius: 12px;
+    background-color: #ca231a;
+    margin-right: 16px;
+}
+
+#buttonUser {
+    align-items: center;
+    display: flex;
+}
+
+#fotoUser {
+    width: 30px;
+    height: 30px;
+    border-radius: 9999px;
+}
+
+.nomeUser {
+    margin: 6px;
+    font-size: 16px;
+}
+
+#iconeUser {
+    width: 20px;
+    margin: 1px;
+    flex-shrink: 0;
+    stroke-width: 2px;
+    fill: none;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.itensDoMenu {
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+    margin-top: 26px;
+}
+
+.itensDoMenu .item01 {
+    border-bottom-width: 2px;
+    border: transparent;
+    padding-bottom: 6px;
+    color: #fff;
+}
+
+.itensDoMenu .item02 {
+    margin-left: 12px;
+    border: transparent;
+    padding-right: 6px;
+    padding-left: 6px;
+    color: #fff
+}
+
+#iconeSaldo {
+    width: 16px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.containerMenu {
+    display: flex;
+    width: max-content;
+}
+
+.containerUserMenuItens {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+.fotoUserMenuItens {
+    width: 60px;
+    height: 60px;
+    border-radius: 9999px;
+    margin-right: 8px;
+}
+
+.tituloSaldo {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.containerSaldo {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.containerTextoSaldo {
+    text-align: right;
+}
+
+#buttonDrop {
+    width: 30px;
+    height: 30px;
+    margin-left: 16px;
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-width: 1px;
+}
+
+.navbarSuperior {
+    display: flex;
+    height: 100%;
+}
+
+.navbarSuperior .a1 {
+    display: flex;
+    height: 100%;
+    cursor: pointer;
+    border-bottom-width: 2px;
+    border-color: rgb(59 130 246);
+    display: inline-flex;
+    margin-right: 8px;
+    align-items: center;
+    color: #027373;
+}
+
+.navbarSuperior .a2 {
+    display: flex;
+    height: 100%;
+    cursor: pointer;
+    border-bottom-width: 2px;
+    border-color: rgb(59 130 246);
+    display: inline-flex;
+    margin-right: 8px;
+    align-items: center;
+    border: transparent;
+    color: #027373;
+}
+
+.container {
+    flex-grow: 1;
+    overflow: hidden;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+}
+
+.containerSuperior {
+    height: 4rem;
+    display: flex;
+    width: 100%;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+.containerLogon {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.containerFoto {
+    position: relative;
+    flex-shrink: 0;
+}
+
+.containerUserMenu {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+    padding-top: 1.75rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.containerPrincipal {
+    flex-grow: 1;
+    display: flex;
+    overflow-x: hidden;
+}
+
+.containerPrincipalSecundario {
+    flex-grow: 1;
+    overflow-y: auto;
+    background-color: #fff;
+}
+
+.containerCentral { 
+    top: 0;
+    background-color: #027373;
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+    padding-top: 1.75rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+}
